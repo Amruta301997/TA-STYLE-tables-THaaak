@@ -1,0 +1,644 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Oswald&family=Roboto+Slab:wght@300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*custom styles*/
+
+.container{
+    margin: 10px;
+    width: 1400px;
+    
+    margin: 0 auto; 
+}
+
+
+.con1{
+    
+    background: linear-gradient(to right, rgba(33, 34, 33, 0.65), rgba(47, 48, 48, 0.65)), url(g1.png) ;
+}
+.header1{
+    display: inline-block;
+}
+.brand, .navbar1, .btn1{
+    display: inline-block;
+}
+.brand {
+    
+    float:left;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.brand span{
+    color: rgb(248, 90, 33);
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.navbar1{
+    float:right;
+   margin-left: 450px;
+    padding-top: 25px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.navbar1 a{
+    float:right;
+    margin-left: 30px;
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+
+.btn1{
+    float: right;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: rgb(248, 90, 33);
+    color: white;
+    padding: 9px;
+    border: none;
+    margin-top: -20px
+
+}
+.header2{
+    margin-top: 110px;
+}
+.header2 h3{
+    font-size: 20px;
+    text-align: center;
+    padding:20px 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.header2 h1{
+    font-size: 50px;
+    text-align: center;
+    padding:20px 10px;
+    font-weight: bold;
+    margin: 20px auto;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header2 h1 span{
+    font-size: 50px;
+    text-align: center;
+    padding:20px 10px;
+    font-weight: bold;
+    margin: 20px auto;
+    color: rgb(248, 90, 33);
+    text-transform: uppercase;
+}
+.btn2{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(248, 90, 33);
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    margin-left: 630px;
+    margin-bottom: 40px;
+}
+
+/*program*/
+
+.choose-program{
+    margin: 30px auto;
+   
+}
+.choose-program h1{
+    font-size: 36px;
+    
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.choose-program h1 span{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: orangered;
+    margin: 10px;
+    
+}
+.choose-program img{
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    margin-left: 650px;
+    margin-bottom: 10px;
+}
+.choose-program p{
+    font-size: 17px;
+    color:rgb(145, 143, 143);
+    margin:  5px 400px;
+    text-align: center;
+}
+
+/*choose program section*/
+
+.program-section1{
+    display: flex;
+    max-width: 1350px;
+    margin-left: 200px;
+}
+.program-section2{
+    display: flex;
+    max-width: 1350px;
+    margin-left: 200px;
+}
+.program-section3{
+    display: flex;
+    max-width: 1350px;
+    margin-left: 200px;
+}
+
+.fitness1{
+    max-width: 40%;
+    display: flex;
+    height: 120px;
+    margin: 20px;
+    
+   
+}
+.fitness-img{
+background-color: white;
+width:20%;
+}
+.fitness-img img{
+    height: 80px;
+    width: 80px;
+    background-color: orangered;
+    margin: 10px;
+
+}
+.fitness2{
+    max-width: 40%;
+    display: flex;
+    height: 120px;
+    margin: 20px;
+   
+   
+}
+.fitness-info{
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: white;
+    
+   
+    }
+    .fitness-info dt{
+        font-size: 22px;
+        font-weight: bold;
+        padding: 5px;
+       
+        text-transform: capitalize;
+    }
+    .fitness-info dd{
+        font-size: 15px;
+        color: grey;
+        padding: 5px;
+       
+        
+    }
+    .fitness-info h3{
+        font-size: 15px;
+        color: orangered;
+        margin-left: 5px;
+        text-transform: uppercase;
+    }
+    .fitness-info span{
+        color: ligh;
+    }
+
+
+/*begin*/
+  .begin{
+      margin-bottom: 10px;
+    background: linear-gradient(to right, rgba(33, 34, 33, 0.65), rgba(47, 48, 48, 0.65)), url(g2.png) ;
+    }
+   .begin h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top:70px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    color: white;
+    text-transform: uppercase;
+   } 
+   .begin span{
+       color: orangered;
+   }
+   .begin p{
+       font-size: 17px;
+       color: white;
+       text-align: center;
+       margin: 10px 400px;
+       line-height: 1.5;
+       
+   }
+
+   /*clases*/
+   
+.classes{
+    margin: 50px auto;
+   
+}
+.classes h1{
+    font-size: 36px;
+    
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.classes h1 span{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: orangered;
+    margin: 10px;
+    
+}
+.classes img{
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    margin-left: 700px;
+    
+    margin-bottom: 10px;
+}
+.classes p{
+    font-size: 17px;
+    color:rgb(145, 143, 143);
+    margin:  5px 400px;
+    text-align: center;
+}
+
+/*training classes*/
+.training{
+    margin: 20px;
+    max-width: 1400px;
+}
+.train-sec1{
+display: inline-block;
+width: 30%;
+border: none;
+margin-left: 210px;
+
+}
+.class1{
+   display: flex;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 10px 0px rgb(148, 145, 145);
+}
+.class1 img{
+    height: 60px;
+    width: 60px;
+}
+.class1 h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+}
+.btn3{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    background-color: tomato;
+    padding: 15px 110px;
+    margin: 5px 20px;
+    border: none;
+    box-shadow: 5px 1px 10px 0px grey;
+}
+
+.train-sec2{
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+    border: none;
+    margin-top: -30px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.train-sec2 img{
+    width: 73%;
+    height: 350px;
+    margin-left: 5px;
+}
+.train-sec2 dt{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom:5px ;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.train-sec2 dd{
+    font-size: 17px;
+    color: grey;
+    padding-bottom: 5px;
+}
+.btn4{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    background-color: tomato;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    
+}
+
+/*schedule*/
+
+.schedule{
+    padding-bottom: 50px;
+    margin: 70px 20px;
+    background: linear-gradient(to right, rgba(33, 34, 33, 0.65), rgba(47, 48, 48, 0.65)), url(g5.png) ;
+}
+
+.schedule h1{
+    font-size: 36px;
+    padding-top: 70px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.schedule h1 span{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: orangered;
+    margin: 10px;
+    
+}
+.schedule img{
+    background-color: rgb(61, 60, 60);
+    width: 90px;
+    height: 40px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+}
+.schedule p{
+    font-size: 17px;
+    color:rgb(199, 186, 186);
+    margin:  5px 400px;
+    text-align: center;
+}
+.navbar2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.navbar2 a{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+table{
+    margin: 0 auto;
+    border: 2px solid white;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+td, th{
+    padding: 40px;
+    border: 2px solid white;
+
+}
+
+/*expert-trainers*/
+
+
+.expert h1{
+    font-size: 36px;
+    padding-top: 70px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.expert h1 span{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: orangered;
+    margin: 10px;
+    
+}
+.expert img{
+    background-color: rgb(61, 60, 60);
+    width: 90px;
+    height: 40px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+}
+.expert p{
+    font-size: 17px;
+    color:rgb(126, 122, 122);
+    margin:  5px 400px;
+    text-align: center;
+}
+
+.expert-trainers{
+    margin: 30px;
+    max-width: 1400px;
+    display: flex;
+}
+.expert1{
+    width: 300px;
+    height: 435px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 10px 5px 10px 5px rgb(196, 192, 192);
+    margin: 10px auto;
+   
+}
+.expert1 img{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.expert1 h3{
+    color: rgb(243, 76, 16);
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.expert1 dt{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.expert1 p{
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 30px;
+}
+.navbar3{
+    display: flex;
+    margin-top: 20px;
+
+}
+.navbar3 img{
+    width: 30px;
+    height: 28px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+/*contact*/
+
+
+.contact{
+    width: 1350px;
+    display: flex;
+}
+.contact-img{
+    max-width: 1350px;
+    display: flex
+}
+.right1{
+    background: linear-gradient(to right, rgba(33, 34, 33, 0.65), rgba(47, 48, 48, 0.65)), url(g5.png) ;
+    float: right;
+    width: 30%;
+height: 300px;
+padding: 20px;
+margin-top:  20px;
+margin-bottom: 20px;
+
+align-items: center;
+
+}
+
+ .contact-input{
+    
+    display: inline-block;
+    padding: 15px;
+    margin-top: -15px;
+    margin-left: 20px;
+    
+
+}
+.contact-input input{
+    padding: 15px;
+    margin: 15px;
+    width: 350px;
+    margin-left: -20px;
+    
+}
+.btn4{
+    font-size: 14px;
+    color: white;
+    background-color: rgb(247, 88, 30);
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    border: none;
+}
+footer{
+    background-color: thistle;
+    padding: 10px;
+}
+footer p{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 40px;
+}
+footer span{
+    color: orangered;
+}
